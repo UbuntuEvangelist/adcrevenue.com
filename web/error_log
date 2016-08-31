@@ -1,0 +1,91 @@
+[14-Jun-2016 22:34:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/adcreven/public_html/models/UserIdentity.php on line 95
+[14-Jun-2016 22:35:37 Asia/Dhaka] PHP Fatal error:  Class 'app\models\User' not found in /home/adcreven/public_html/controllers/UserController.php on line 79
+[15-Jun-2016 00:30:03 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Usertype' not found in /home/adcreven/public_html/views/site/signup.php on line 43
+[15-Jun-2016 02:32:12 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 53
+[15-Jun-2016 18:37:22 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 18:38:42 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 19:07:03 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 20:26:56 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:05:06 Asia/Dhaka] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/adcreven/public_html/controllers/UserController.php on line 64
+[15-Jun-2016 21:06:47 Asia/Dhaka] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/adcreven/public_html/controllers/UserController.php on line 64
+[15-Jun-2016 21:06:56 Asia/Dhaka] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/adcreven/public_html/controllers/UserController.php on line 64
+[15-Jun-2016 21:11:28 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:12:01 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:13:41 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:13:50 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:16:27 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:17:59 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:25:09 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[15-Jun-2016 21:30:52 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 66
+[16-Jun-2016 16:21:01 Asia/Dhaka] PHP Fatal error:  Call to a member function formName() on a non-object in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2113
+[16-Jun-2016 16:23:15 Asia/Dhaka] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 67
+[16-Jun-2016 16:51:02 Asia/Dhaka] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 72
+[16-Jun-2016 16:52:26 Asia/Dhaka] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 72
+[16-Jun-2016 21:04:16 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/UserIdentity.php on line 112
+[16-Jun-2016 21:04:56 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/UserIdentity.php on line 112
+[16-Jun-2016 21:10:48 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/Monitoringchok.php on line 98
+[19-Jun-2016 05:01:02 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[19-Jun-2016 15:32:16 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[19-Jun-2016 22:50:43 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageFile() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 99
+[19-Jun-2016 22:52:48 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageFile() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 99
+[19-Jun-2016 22:53:35 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageFile() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 99
+[19-Jun-2016 22:54:58 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageFile() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 99
+[19-Jun-2016 22:55:36 Asia/Dhaka] PHP Fatal error:  Call to a member function uploadImage() on a non-object in /home/adcreven/public_html/controllers/UserController.php on line 101
+[19-Jun-2016 22:56:05 Asia/Dhaka] PHP Fatal error:  Class 'app\models\UploadedFile' not found in /home/adcreven/public_html/models/UserIdentity.php on line 129
+[19-Jun-2016 23:09:21 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 132
+[19-Jun-2016 23:10:17 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 133
+[19-Jun-2016 23:56:40 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[19-Jun-2016 23:56:41 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[21-Jun-2016 16:00:44 Asia/Dhaka] PHP Fatal error:  Undefined class constant 'self::STATUS_INPROCESS' in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 71
+[21-Jun-2016 16:00:48 Asia/Dhaka] PHP Fatal error:  Undefined class constant 'self::STATUS_INPROCESS' in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 41
+[21-Jun-2016 16:00:52 Asia/Dhaka] PHP Fatal error:  Undefined class constant 'self::STATUS_INPROCESS' in /home/adcreven/public_html/controllers/MonitoringchokController.php on line 41
+[21-Jun-2016 17:31:57 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[22-Jun-2016 17:39:52 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[23-Jun-2016 22:34:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:34:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:34:33 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:34:56 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:34:57 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:38:04 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:38:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 22:39:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?>' in /home/adcreven/public_html/views/monitoringchok/_form.php on line 289
+[23-Jun-2016 23:42:34 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[23-Jun-2016 23:42:50 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[26-Jun-2016 16:36:19 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 58
+[24-Jul-2016 13:49:13 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 64
+[24-Jul-2016 13:51:59 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 64
+[24-Jul-2016 13:52:06 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 64
+[24-Jul-2016 16:13:44 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '<' in /home/adcreven/public_html/views/monitoringchok/index.php on line 22
+[24-Jul-2016 21:40:59 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/User.php on line 239
+[25-Jul-2016 00:17:11 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/User.php on line 239
+[25-Jul-2016 00:18:03 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/User.php on line 239
+[25-Jul-2016 00:19:25 Asia/Dhaka] PHP Fatal error:  Class 'app\models\Html' not found in /home/adcreven/public_html/models/User.php on line 239
+[27-Jul-2016 01:15:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[27-Jul-2016 01:15:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[27-Jul-2016 01:15:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[27-Jul-2016 01:15:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[27-Jul-2016 01:15:40 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[27-Jul-2016 01:15:40 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'নতুন' (T_STRING), expecting ']' in /home/adcreven/public_html/translations/bn/app.php on line 119
+[29-Jul-2016 02:40:17 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/adcreven/public_html/views/timeline-event/index.php on line 23
+[29-Jul-2016 03:22:30 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:36:06 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:37:24 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:41:37 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:53:19 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:56:35 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[29-Jul-2016 23:56:47 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 65
+[30-Jul-2016 00:57:11 Asia/Dhaka] PHP Fatal error:  Class 'NotificationsWidget' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 48
+[30-Jul-2016 00:58:08 Asia/Dhaka] PHP Fatal error:  Class 'machour\yii2\notifications\widgets\NotificationsWidget' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 49
+[30-Jul-2016 00:59:20 Asia/Dhaka] PHP Fatal error:  Class 'machour\yii2\notifications\widgets\NotificationsWidget' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 49
+[30-Jul-2016 01:00:00 Asia/Dhaka] PHP Fatal error:  Class 'machour\yii2\notifications\widgets\NotificationsWidget' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 49
+[30-Jul-2016 01:01:16 Asia/Dhaka] PHP Fatal error:  Class 'machour\yii2\notifications\widgets\NotificationsWidget' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 49
+[30-Jul-2016 01:09:22 Asia/Dhaka] PHP Fatal error:  Class 'machour\yii2\notifications\models\Notification' not found in /home/adcreven/public_html/models/Notification.php on line 10
+[30-Jul-2016 07:58:26 Asia/Dhaka] PHP Fatal error:  Class 'app\models\TimelineEvent' not found in /home/adcreven/public_html/views/layouts/dashboard.php on line 80
+[30-Jul-2016 15:54:03 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 15:57:07 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 15:57:09 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 16:11:02 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 16:11:07 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 16:11:44 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 16:43:19 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[30-Jul-2016 20:09:45 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
