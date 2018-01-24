@@ -11,7 +11,7 @@ return [
     'Send'   => 'প্রেরণ',
     'Save'   => 'সংরক্ষন',
     'Menu'   => 'মেনু',
-    'Back'   => 'পিছনে',	
+    'Back'   => 'আগের মেনুতে ফিরে যান',	
 	'Role' => 'ভূমিকা',
 	'Active' => 'সক্রিয়',
 	'Inactive' => 'নিষ্ক্রিয়',
@@ -25,8 +25,8 @@ return [
     'About'    => 'সম্বন্ধে',
     'Contact'  => 'যোগাযোগ',
     'Login'    => 'লগ-ইন',
-    'Logout'   => 'প্রস্থান',
-	'Sign out' => 'প্রস্থান',
+    'Logout'   => 'লগ-আউট',
+	'Sign out' => 'লগ-আউট',
     'Users'    => 'ইউজার',    
     'Register' => 'নিবন্ধন',
 
@@ -46,70 +46,69 @@ return [
     // contact
     'Name'    => 'নাম',
     'Subject' => 'বিষয়',
-    'Text'    => 'পাঠ',
+    'Text'    => 'টেক্সট',
     'Verification Code' => 'যাচাইকরণ কোড',
     'If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.' 
-        => 'আপনার ব্যবসা অনুসন্ধান বা অন্য কোন প্রশ্ন থাকে, তাহলে নিচের ফর্মটি পুরন করুন, আমাদের সাথে যোগাযোগ করার জন্য । ধন্যবাদ ।',
-    'Thank you for contacting us. We will respond to you as soon as possible.' => 'আমাদের সাথে যোগাযোগ করার জন্য আপনাকে ধন্যবাদ. আমরা যত তাড়াতাড়ি সম্ভব সাড়া দেব ।',
-    'There was an error sending email.' => 'ই-মেইল পাঠানোর সময় একটি ত্রুটি হয়েছিল ।',
+        => 'If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.',
+    'Thank you for contacting us. We will respond to you as soon as possible.' => 'Thank you for contacting us. We will respond to you as soon as possible.',
+    'There was an error sending email.' => 'There was an error sending email',
 
     // password reset
-    'If you forgot your password you can' => 'আপনি আপনার পাসওয়ার্ড ভুলে গিয়ে থাকেন তাহলে আপনি এটি পুনরায় সেট করতে পারেন',
-    'reset it' => 'পুনরায় সেট করুন ।',
-    'Request password reset' => 'পাসওয়ার্ড পুনরায় সেট করার অনুরোধ ।',
-    'Please fill out your email.' => 'আপনার ই-মেইল পূরণ করুন ।',
+    'If you forgot your password you can' => 'If you forgot your password you can',
+    'reset it' => 'reset it',
+    'Request password reset' => 'Request password reset',
+    'Please fill out your email.' => 'Fill out your email',
 	'Email' => 'ই-মেইল',
-    'Reset password' => 'পাসওয়ার্ড রিসেট করুন',
-    'A link to reset password will be sent to your email.' => 'পাসওয়ার্ড রিসেট করতে একটি লিঙ্ক আপনার ই-মেইল পাঠানো হবে ।',
-    'Check your email for further instructions.' => 'অতিরিক্ত নির্দেশের জন্য আপনার ইমেইল চেক করুন ।',
-    'Please choose your new password:' => 'অনুগ্রহ করে আপনার নতুন পাসওয়ার্ড পছন্দ করুন:',
-    'New password was saved.' => 'নতুন পাসওয়ার্ড সংরক্ষিত হল ।',
-    'Sorry, we are unable to reset password for email provided.' => 'দুঃখিত , আমরা প্রদান করা ই-মেইলের জন্য পাসওয়ার্ড রিসেট করতে অসমর্থ ।',
-    'Password reset token cannot be blank.' => 'পাসওয়ার্ড রিসেট টোকেন ফাঁকা হতে পারে না ।',
-    'Wrong password reset token.' => 'পাসওয়ার্ড রিসেট টোকেনটি ভুল ।',
+    'Reset password' => 'Reset Password',
+    'A link to reset password will be sent to your email.' => 'A link to reset password will be sent to your email.',
+    'Check your email for further instructions.' => 'Check your email for further instructions.',
+    'Please choose your new password:' => 'Please choose your new password:',
+    'New password was saved.' => 'New password was saved.',
+    'Sorry, we are unable to reset password for email provided.' => 'Sorry, we are unable to reset password for email provided.',
+    'Password reset token cannot be blank.' => 'Password reset token cannot be blank.',
+    'Wrong password reset token.' => 'Wrong password reset token.',
 
     // signup
     'Signup'   => 'নিবন্ধন করুন',
-    'Please fill out the following fields to signup:' => 'নিবন্ধন করার জন্য নিম্নলিখিত ক্ষেত্রগুলি পূরণ করুন :',
-    'We will send you an email with account activation link.' => 'আমরা আপনাকে একটি অ্যাকাউন্ট অ্যাক্টিভেশন লিঙ্ক সহ একটি ইমেল পাঠাতে হবে ।',
-    'We couldn\'t sign you up, please contact us.' => 'আমরা আপনাকে নিবন্ধন করতে পারছি না, আমাদের সাথে যোগাযোগ করুন',
+    'Please fill out the following fields to signup:' => 'Please fill out the following fields to signup:',
+    'We will send you an email with account activation link.' => 'We will send you an email with account activation link.',
+    'We couldn\'t sign you up, please contact us.' => 'We couldn\'t sign you up, please contact us.',
 
     // login
-    'Remember me'  => 'স্মৃতিতে রাখো',
+    'Remember me'  => 'Remember Me',
     'Please fill out the following fields to login:' => 'লগ ইন করার জন্য নিম্নলিখিত ক্ষেত্রগুলি পূরণ করুন :',
-    'You have to activate your account first. Please check your email.' => 'আপনাকে প্রথমে আপনার অ্যাকাউন্ট সক্রিয় করতে হবে . অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন ।',
+    'You have to activate your account first. Please check your email.' => 'You have to activate your account first. Please check your email.',
     'To be able to log in, you need to confirm your registration. Please check your email, we have sent you a message.'
-        => 'লগ ইন করার জন্য, আপনি আপনার রেজিস্ট্রেশন নিশ্চিত করতে হবে । আপনার ইমেইল চেক করুন , আমরা আপনাকে একটি বার্তা প্রেরণ করেছি ।',
+        => 'To be able to log in, you need to confirm your registration. Please check your email, we have sent you a message.',
 
     // account activation
-    'We couldn\'t send you account activation email, please contact us.' => 'আমরা আপনার অ্যাকাউন্ট অ্যাক্টিভেশন ইমেল পাঠাতে পারছি না , আমাদের সাথে যোগাযোগ করুন ।',
-    'Success! You can now log in.' => 'সাফল্য! এখন আপনি লগ ইন করতে পারেন ।',
-    'for joining us!' => 'আমাদের সাথে যোগ দেওয়ার জন্য !',
-    'your account could not be activated, please contact us!' => 'আপনার অ্যাকাউন্ট সক্রিয় করা যায়নি , আমাদের সাথে যোগাযোগ করুন!',
-    'Account activation token cannot be blank.' => 'একাউন্ট চালু হবার টোকেন ফাঁকা হতে পারে না ।',
-    'Wrong account activation token.' => 'ভুল একাউন্ট চালু হবার টোকেন ।',
+    'We couldn\'t send you account activation email, please contact us.' => 'We couldn\'t send you account activation email, please contact us.',
+    'Success! You can now log in.' =>  'Success! You can now log in.',
+    'for joining us!' => 'for joining us!',
+    'your account could not be activated, please contact us!' =>  'your account could not be activated, please contact us!',
+    'Account activation token cannot be blank.' =>  'Account activation token cannot be blank.',
+    'Wrong account activation token.' => 'Wrong account activation token.',
 
     //-- general db fields --//
     'Created At' => 'নির্মিত সময়',
     'Updated At' => 'আপডেট সময়',
-	'Created By' => 'দ্বারা সৃষ্টি',
-	'Updated By' => 'দ্বারা আপডেট',
+	'Created By' => 'Created By',
+	'Updated By' => 'Updated By',
     'Photo' => 'প্রোফাইল ছবি আপলোড করুন',
-    'Update Monitoringchok' => 'আপডেট চ্যাট',
+    'Update Monitoringchok' => 'মনিটরিং ছক আপডেট করুন',
     'Scan File' => 'স্ক্যান ফাইল আপলোড করুন',
     'Application Timeline' => 'প্রজ্ঞাপন টাইমলাইন',
    
 
     //-- mixed --//
-    'My Company' => 'আমার কোম্পানি',
-    'Hello' => 'আসসালামু আলাইকুম',
-    'Thank you' => 'ধন্যবাদ',
+    'Hello' => 'Hello',
+    'Thank you' => 'Thank you',
    
     //-- users management --//
     'Role' => 'Role',
     'Create User' => 'ইউজার যুক্ত করুন',
     'Update User' => 'ইউজার আপডেট করুন',
-    'New pwd ( if you want to change it )'=> 'নতুন পাসওয়ার্ড ( আপনি যদি পরিবর্তন করতে চান তাহলে )',
+    'New pwd ( if you want to change it )'=> 'New Password',
     
     //-- Application timeline --//
     'Date' => 'তারিখ',
@@ -120,17 +119,17 @@ return [
 
 
     //-- errors --//
-    'The above error occurred while the Web server was processing your request.' => 'যখন ওয়েব সার্ভার আপনার অনুরোধ প্রক্রিয়াকরণে ছিল উপরে ত্রুটি ঘটেছে',
-    'Please contact us if you think this is a server error. Thank you.' => 'আমাদের সাথে যোগাযোগ করুন যদি আপনি মনে করেন এটি একটি সার্ভার ত্রুটি. ধন্যবাদ ।',
-    'You are not allowed to access this page.' => 'আপনাকে এই পৃষ্ঠায় যাওয়ার জন্য অনুমতি দেওয়া হয় নাই ।',
+    'The above error occurred while the Web server was processing your request.' => 'The above error occurred while the Web server was processing your request.',
+    'Please contact us if you think this is a server error. Thank you.' => 'Please contact us if you think this is a server error. Thank you.',
+    'You are not allowed to access this page.' => 'You are not allowed to access this page.',
 
     //-- delete messages --//
-    'Are you sure you want to delete this user?' => 'আপনি এই ইউজার মুছে ফেলতে চান আপনি কি নিশ্চিত?',
-    'Are you sure you want to delete this article?' => 'যদি আপনি এই নিবন্ধ মুছে ফেলতে চান আপনি কি নিশ্চিত?',
+    'Are you sure you want to delete this user?' => 'আপনি এই ইউজার মুছে ফেলতে চান, আপনি কি নিশ্চিত?',
+    'Are you sure you want to delete this article?' => 'আপনি এই নিবন্ধ মুছে ফেলতে চান ,আপনি কি নিশ্চিত?',
 	
 	//-- monitoringchok--//
-	'Monitoringchoks' => 'পর্যবেক্ষণ চ্যাট',
-	'Create Monitoringchok' => 'পর্যবেক্ষণ চ্যাট ডাটা যুক্ত করুন',
+	'Monitoringchoks' => 'মনিটরিং ছক',
+	'Create Monitoringchok' => 'মনিটরিং ছক ডেটা যুক্ত করুন',
 	'Montobo' => 'মন্তব্য',
 	'Sf Send To Justice Date' => 'বিজ্ঞ আদালত/সরকারি কৌশুলির কাছে এসএফ প্রেরণের তারিখ',
 	'Kromik Nong' => 'ক্রমিক নং',
@@ -142,7 +141,7 @@ return [
 	'Email Sending Date' => 'উপজেলা ভূমি অফিসে ই-মেইলে আরজি/নোটিশ প্রেরণের তারিখ',
 	'Sf Receipt Date' => 'উপজেলা ভূমি অফিস হতে এসএফ প্রাপ্তির জন্য নির্ধারিত তারিখ',
 	'Sf Receipt Original Date' => 'উপজেলা ভূমি অফিস হতে এসএফ প্রাপ্তির প্রকৃত তারিখ',	
-	'Re Captcha' => ' ',
+	'Re-Captcha' => 'Re-Captcha ',
 	'Bigg Adaloter Nam' => 'বিজ্ঞ আদালতের নাম',
 	
 	'1' => '১',
@@ -157,8 +156,8 @@ return [
 	'0' => '০',
 	
 	//-- notification --//
-	'A new case open' => 'এইটি নতুন মামলা খোলা হয়েছে',
-	'Judge court open a new case' => 'বিজ্ঞ আদালত হতে এইটি নতুন মামলা খোলা হয়েছে',
+	'A new case open' => 'এইটি নতুন মামলা যুক্ত হয়েছে',
+	'Judge court open a new case' => 'বিজ্ঞ আদালত হতে এইটি নতুন মামলা যুক্ত হয়েছে',
 	'DC office send an e-mail' => 'ডিসি অফিস হতে ই-মেইলে আরজি/নোটিশ প্রেরণ করা হয়েছে যে তারিখে',
 	'Check your e-mail to get the necessary information' => 'প্রয়োজনীয় তথ্য পেতে আপনার ই-মেইল চেক করুন',
 	'DC office set SF receipt date' => 'ডিসি অফিস হতে এসএফ প্রাপ্তির জন্য তারিখ নির্ধারন করা হয়েছে',

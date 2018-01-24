@@ -4,7 +4,7 @@ return [
     '{attribute} cannot be blank.' => '{attribute} ফাঁকা রাখা যাবে না ।',
     'The verification code is incorrect.' => 'যাচাইকরণ কোড ভুল ।',
     'Home' => 'হোম',
-    'You are not allowed to perform this action.' => 'আপনাকে এই কর্ম সঞ্চালন করার অনুমতি দেওয়া হয় নাই',
+    'You are not allowed to perform this action.' => 'You are not allowed to perform this action.',
 	'1' => '১',
 	'2' => '২',
 	'3' => '৩',

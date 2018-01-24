@@ -29,6 +29,7 @@ class UserController extends AppController
             'dataProvider' => $dataProvider,
         ]);
     }
+	
 	public function behaviors()
 	{
 		return [
@@ -44,6 +45,7 @@ class UserController extends AppController
 			],
 		];
 	}
+	
    
     public function actionView($id)
     {

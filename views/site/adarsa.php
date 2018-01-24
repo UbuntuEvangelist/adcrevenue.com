@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+$connection = \Yii::$app->db;
 use yii\grid\GridView;
 use yii\data\ActiveDataProvider;
 use app\models\Monitoringchok;
@@ -20,7 +21,9 @@ $this->params['breadcrumbs'][] = $this->title;
 	$query->andFilterWhere(['upazilaNam' => 16])
 		->groupBy('mamlarBochor')
 		->orderBy('mamlaNong');		
-	$query->andFilterwhere(['=', 'status', '0']);	
+	$query->andFilterwhere(['!=', 'status', '10'])
+			->andFilterwhere(['!=', 'status', '1'])
+			->andFilterwhere(['=', 'status', '0']);	
 ?>
 <?= GridView::widget([
         'dataProvider' => $dataProvider,       
@@ -80,14 +83,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </section>
 <section class="col-lg-12">
-<?php $model = Monitoringchok::find()->where(['=', 'status', '1'])
-->andWhere(['upazilaNam'=> 16])->all(); ?>					
+<?php 
+$model = $connection->createCommand('SELECT mamlaNong, mamlarBochor, sfReceiptDate, sfReceiptOriginalDate, sfSendToJusticeDate, montobo			   
+			   FROM ltb_monitoringchok
+			   WHERE sfReceiptOriginalDate > sfReceiptDate
+			   ORDER BY mamlaNong')->queryAll();		
+?>					
 
 <div class="nav-tabs-custom">
 	<ul class="nav nav-tabs pull-right">
 		<li class="active"><a href="#revenue-chart" data-toggle="tab">প্রতিবেদন</a></li>
 		<li><a href="#sales-chart" data-toggle="tab"></a></li>
-		<li class="pull-left header"><i class="fa fa-inbox"></i>Pending S.F</li>
+		<li class="pull-left header"><i class="fa fa-inbox"></i>SQL Pending S.F</li>
 	</ul>
 	<div class="tab-content no-padding">				 
 		<div class="table-responsive">

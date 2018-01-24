@@ -1,63 +1,103 @@
-দেওয়ানী ও সার্ভে ট্রাইব্যুনাল মামলার মনিটরিং সিষ্টেম বাংলাদেশের সকল ডি সি অফিস, ভূমি অফিস এবং বিজ্ঞ আদালত ব্যবহার যোগ্য। 
-==============================================================================================
+Yii 2 Basic Project Template
+============================
+
+Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
+rapidly creating small projects.
+
+The template contains the basic features including user login/logout and a contact page.
+It includes all commonly used configurations that would allow you to focus on adding new
+features to your application.
+
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-basic/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
+[![Build Status](https://travis-ci.org/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-basic)
+
+DIRECTORY STRUCTURE
+-------------------
+
+      assets/             contains assets definition
+      commands/           contains console commands (controllers)
+      config/             contains application configurations
+      controllers/        contains Web controller classes
+      mail/               contains view files for e-mails
+      models/             contains model classes
+      runtime/            contains files generated during runtime
+      tests/              contains various tests for the basic application
+      vendor/             contains dependent 3rd-party packages
+      views/              contains view files for the Web application
+      web/                contains the entry script and Web resources
 
 
-ভিশন টুয়েন্টি টুয়েন্টি ওয়ান
-(Vision 2021)
-১। প্রথম লক্ষ্য ২০২১ সাল নাগাদ ডিজিটাল বাংলাদেশ গড়ে তোলা।
-২। দ্বিতীয় লক্ষ্য ২০২১ সাল নাগাদ বাংলাদেশকে একটি মধ্যম আয়ের রাষ্ট্রে উন্নীত করা।
 
-আনন্দের বিষয় গত ২০১৫ সালেই বাংলাদেশ নিম্ন মধ্যম আয়ের রাষ্ট্রে উন্নীত হয়। আমাদের মাননীয় প্রধান মন্ত্রী পরবর্তীতে ২০২১ সাল নাগাদ বাংলাদেশকে একটি উচ্চ মধ্যম আয়ের রাষ্ট্রে উন্নীত করার লক্ষ্যমাত্রার ঘোষণা দেন। Vision 2021- আর দশটা বাঙ্গালীর মতো আমারও স্বপ্ন। বাংলাদেশের জন্য সঠিক প্রযুক্তি নির্ভর SaaS (Software As A Service) তৈরি করার মাধ্যমেই ডিজিটাল বাংলাদেশের সঠিক বাস্তবায়ন সম্ভব। 
+REQUIREMENTS
+------------
 
-দেওয়ানী মামলা সংক্রান্ত অনলাইন মনিটরিং টুলে যা থাকবে :
-
-Process Flow
-
-বিজ্ঞ আদালত → ডিসি অফিস → উপজেলা ভূমি অফিস
-     উপজেলা ভূমি অফিস → ডিসি অফিস → বিজ্ঞ আদালত      
-
-অফিস সংখ্যা 
-
-বিজ্ঞ আদালত - ২৪ টি  
-ডিসি অফিস - ১ টি 
-উপজেলা ভূমি অফিস - ১৬ টি
-
-ইউজার
-
-বিজ্ঞ আদালত সংশ্লিষ্ট অফিস - ২৪ টি
-ডিসি অফিস - ৩ টি ( ADC (Rev.), AC (RM), Office Assistant)  
-উপজেলা ভূমি অফিস - ১৬ টি
-
-এডমিন ইউজার
-
-ডিসি অফিস - ১ টি 
+The minimum requirement by this project template that your Web server supports PHP 5.4.0.
 
 
-ADC (Rev.), AC (RM), Office Assistant অনুযায়ী নির্দিষ্ট User ID পাসওয়ার্ড 	থাকতে হবে।
+INSTALLATION
+------------
 
-এডমিন হিসেবে লগইন করার জন্য আলাদা আইডি ও পাসওয়ার্ড থাকতে হবে। 
+### Install from an Archive File
 
-মোকদ্দমা সংক্রান্ত সকল নোটিফিকেশন অতিরিক্ত জেলা প্রশাসক (রাজস্ব) মহোদয় ও 	সহকারী কমিশনার, রাজস্ব মুন্সিখানা বরাবরে নির্দিষ্ট সময়ের মধ্যে Dash Board-	এ	দেখাতে হবে।
+Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
+a directory named `basic` that is directly under the Web root.
 
-কুমিল্লা জেলার সকল উপজেলার মোকদ্দমাসমূহ উপজেলাভিত্তিক আলাদা-	আলাদাভাবে মনিটরিং টুলে সন্নিবেশিত থাকতে হবে।
+Set cookie validation key in `config/web.php` file to some random secret string:
 
-মোকদ্দমাসমূহ উপজেলাভিত্তিক আলাদা-আলাদাভাবে মনিটরিং টুলে থাকলেও 	মোকদ্দমাসমূহ ক্রমানুসারে সন অনুযায়ী থাকতে হবে (যেমন : দেওয়ানী মোকদ্দমা 	নং- 	০১/২০১৬, ০২/২০১৬, ০৩/২০১৬ ইত্যাদি)।
+```php
+'request' => [
+    // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+    'cookieValidationKey' => '<secret random string goes here>',
+],
+```
 
-উপজেলা ভূমি অফিস/সংশ্লিষ্ট অফিস হতে নির্ধারিত সময়ের মধ্যে (৭/১৫ দিন) 	দফাওয়ারী প্রতিবেদন পাওয়া গেলে মনিটরিং টুলে “ সবুজ রঙয়ের ” সংকেত থাকতে 	হবে।
+You can then access the application through the following URL:
 
-উপজেলা ভূমি অফিস/সংশ্লিষ্ট অফিস হতে নির্ধারিত সময়ের মধ্যে (৭/১৫ দিন) 	দফাওয়ারী প্রতিবেদন পাওয়া না গেলে মনিটরিং টুলে “ লাল রঙয়ের ” সংকেত 	থাকতে হবে।
+~~~
+http://localhost/basic/web/
+~~~
 
-০৭ অথবা ১৫ দিনের উর্দ্ধে পেন্ডিং এস.এফ এর তালিকা/মামলার নম্বর 	উপজেলাভিত্তিক মনিটরিং টুলে দৃশ্যমান থাকতে হবে এবং নিষ্পত্তি হলে পেন্ডিং 	তালিকা থেকে তা স্বয়ংক্রিয়ভাবে মুছে যেতে হবে।     
-মোকদ্দমা সমূহের দফাওয়ারী প্রতিবেদন নির্দিষ্ট সময়ের মধ্যে প্রাপ্তি এবং অপ্রাপ্তির 	নোটিফিকেশন অতিরিক্ত জেলা প্রশাসক (রাজস্ব) মহোদয় ও সহকারী কমিশনার, 	রাজস্ব মুন্সিখানা বরাবর সময়ে-সময়ে পৌছতে হবে।
 
-বিজ্ঞ আদালত সমূহের নামের কলাম আলাদা-আলাদা থাকতে হবে। যেমন : (বিজ্ঞ 	যুগ্ম 	জেলা জজ ১ম আদালত/বিজ্ঞ ল্যান্ড সার্ভে ট্রাইব্যুনাল আদালত/বিজ্ঞ সিনিয়র সহকারী 	জজ আদালত) ইত্যাদি।
+### Install via Composer
 
-বিজ্ঞ আদালত হতে জেলা প্রশাসকের কার্যালয়ে মোকদ্দমার আরজি প্রাপ্তির তারিখ 	এর 	কলাম থাকতে হবে।
+If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
+at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
-উপজেলা ভূমি অফিস/ সংশ্লিষ্ট অফিসে দফাওয়ারী প্রতিবেদনের জন্য আরজি প্রেরণ 	হতে প্রতিবেদন প্রাপ্তির জন্য সময় নির্ধারণ করে দিতে হবে।
+You can then install this project template using the following command:
 
-বিজ্ঞ আদালত / বিজ্ঞ সরকারি কৌঁশুলীর নিকট মোকদ্দমার দফাওয়ারী প্রতিবেদন 	প্রেরিত হলে মনিটরিং টুলে  “ সবুজ রঙয়ের ” সংকেত থাকতে হবে।
+~~~
+php composer.phar global require "fxp/composer-asset-plugin:~1.1.1"
+php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic
+~~~
 
-বিজ্ঞ আদালত / বিজ্ঞ সরকারি কৌঁশুলীর নিকট মোকদ্দমার দফাওয়ারী প্রতিবেদন 	প্রেরিত না হলে মনিটরিং টুলে  “ লাল রঙয়ের ” সংকেত থাকতে হবে।
+Now you should be able to access the application through the following URL, assuming `basic` is the directory
+directly under the Web root.
 
-মোকদ্দমা সমূহের দফাওয়ারী প্রতিবেদন নির্দিষ্ট সময়ের মধ্যে বিজ্ঞ আদালত / বিজ্ঞ 	সরকারি কৌঁশুলীর নিকট প্রেরিত/অপ্রেরিত সংক্রান্ত নোটিফিকেশন অতিরিক্ত জেলা 	প্রশাসক (রাজস্ব) মহোদয় ও সহকারী কমিশনার, রাজস্ব মুন্সিখানা বরাবর পৌছতে 	হবে।
+~~~
+http://localhost/basic/web/
+~~~
+
+
+CONFIGURATION
+-------------
+
+### Database
+
+Edit the file `config/db.php` with real data, for example:
+
+```php
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'username' => 'root',
+    'password' => '1234',
+    'charset' => 'utf8',
+];
+```
+
+**NOTES:**
+- Yii won't create the database for you, this has to be done manually before you can access it.
+- Check and edit the other files in the `config/` directory to customize your application as required.
+- Refer to the README in the `tests` directory for information specific to basic application tests.
+# SaaS

@@ -89,3 +89,92 @@
 [30-Jul-2016 16:11:44 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
 [30-Jul-2016 16:43:19 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
 [30-Jul-2016 20:09:45 Asia/Dhaka] PHP Fatal error:  Call to a member function getImageurl() on a non-object in /home/adcreven/public_html/views/layouts/dashboard.php on line 78
+[01-Sep-2016 04:11:33 Asia/Dhaka] PHP Fatal error:  Call to a member function createCommand() on a non-object in /home/adcreven/public_html/views/site/adarsa.php on line 85
+[01-Sep-2016 04:13:50 Asia/Dhaka] PHP Fatal error:  Call to a member function createCommand() on a non-object in /home/adcreven/public_html/views/site/adarsa.php on line 85
+[02-Jan-2018 06:05:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('7eurr9qlr0gddll...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('7eurr9qlr0gddll...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('1ialui6e1uugr0e...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('7eurr9qlr0gddll...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('7eurr9qlr0gddll...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('7eurr9qlr0gddll...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[02-Jan-2018 06:05:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function yii\helpers\mb_strlen() in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php:31
+Stack trace:
+#0 /home/adcreven/public_html/vendor/yiisoft/yii2/base/Security.php(412): yii\helpers\BaseStringHelper::byteLength('b613679a0814d9e...')
+#1 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1238): yii\base\Security->validateData('1ialui6e1uugr0e...', 'VXpxMl3Qrytzv87...')
+#2 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1214): yii\web\Request->loadCookies()
+#3 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1299): yii\web\Request->getCookies()
+#4 /home/adcreven/public_html/vendor/yiisoft/yii2/web/Request.php(1278): yii\web\Request->loadCsrfToken()
+#5 /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php(295): yii\web\Request->getCsrfToken()
+#6 /home/adcreven/public_html/views/layouts/main.php(20): yii\helpers\BaseHtml::csrfMetaTags()
+#7 /home/adcreven/public_html/vendor/yiisoft/yii2/base/View in /home/adcreven/public_html/vendor/yiisoft/yii2/helpers/BaseStringHelper.php on line 31
+[06-Jan-2018 20:41:55 UTC] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/web/phpinfo.php on line 1
+[06-Jan-2018 20:46:41 UTC] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/web/phpinfo.php on line 1
+[06-Jan-2018 20:47:24 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 20:47:24 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 20:47:24 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:03:27 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:03:27 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:03:27 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:06:28 UTC] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/web/phpinfo.php on line 1
+[06-Jan-2018 21:08:57 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:08:57 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:08:57 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:12:23 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/views/errorHandler/exception.php on line 398
+[06-Jan-2018 21:12:23 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[06-Jan-2018 21:12:23 UTC] PHP Warning:  date(): Invalid date.timezone value 'America/Washington', we selected the timezone 'UTC' for now. in /home/adcreven/public_html/vendor/yiisoft/yii2/log/Target.php on line 265
+[07-Jan-2018 05:14:50 UTC] PHP Fatal error:  Call to a member function getRolesByUser() on null in /home/adcreven/public_html/controllers/UserController.php on line 101
+[07-Jan-2018 05:14:55 UTC] PHP Fatal error:  Call to a member function getRolesByUser() on null in /home/adcreven/public_html/controllers/UserController.php on line 101

@@ -75,7 +75,7 @@ DashboardAsset::register($this);
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <!--<img src="<?php //echo Yii::$app->user->identity->getImageurl(); ?>" class="user-image">-->
-								<?php echo Html::img(Yii::$app->request->baseUrl.'/uploads/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
+								<?php echo Html::img(Yii::$app->request->baseUrl.'/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
                                 <span><?php echo Yii::$app->user->identity->username; ?> <i class="caret"></i></span>
                             </a>
 							
@@ -83,7 +83,7 @@ DashboardAsset::register($this);
                                 <!-- User image -->
                                 <li class="user-header light-blue">
                                     <!--<img src="<?php //echo Yii::$app->user->identity->getImageurl(); ?>" class="img-circle" alt="User Image" />-->
-									<?php echo Html::img(Yii::$app->request->baseUrl.'/uploads/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
+									<?php echo Html::img(Yii::$app->request->baseUrl.'/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
                                     <p>
                                         <?php echo Yii::$app->user->identity->username; ?>
                                         <small>
@@ -106,10 +106,10 @@ DashboardAsset::register($this);
                 <div class="user-panel">
                     <div class="pull-left image">
                         <!--<img src="<?php //echo Yii::$app->user->identity->getPhotourl(); ?>" class="img-circle" />-->
-						<?php echo Html::img(Yii::$app->request->baseUrl.'/uploads/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
+						<?php echo Html::img(Yii::$app->request->baseUrl.'/'. Yii::$app->user->identity->photo,['alt'=>'', 'class' => 'img-circle', 'width'=>'40px','height'=>'40px','title'=>'image title']); ?>
                     </div>
                     <div class="pull-left info">
-                        <h6><?php echo Yii::t('app', 'আস সালামু আলাইকুম, {username}', ['username'=>Yii::$app->user->identity->username]) ?></h6>
+                        <h6><?php echo Yii::t('app', 'Hello! {username}', ['username'=>Yii::$app->user->identity->username]) ?></h6>
                         <a href="#">
                             <i class="fa fa-circle text-success"></i>
                             <?php echo Yii::$app->formatter->asDatetime(time()) ?>
@@ -119,21 +119,21 @@ DashboardAsset::register($this);
                 <ul class="sidebar-menu">
 					<li class="header">প্রধান গৌণ</li>
 					<li class="treeview">
-					  <a href="http://adcrevenue.com/web/dashboard/index">
+					  <a href="http://www.adcrevenue.com/web/dashboard/index">
 						<i class="fa fa-dashboard"></i> <span>ড্যাশবোর্ড</span> 
 					  </a>			 
 					</li>
 					<?php if(Yii::$app->user->can('admin')){ ?>
 						<li class="header">মনিটরিং সিষ্টেম</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/user/index">
+						  <a href="http://www.adcrevenue.com/web/user/index">
 							<i class="fa fa-pie-chart"></i> <span>ইউজার লিস্ট</span>
 						  </a>			 
 						</li>
 					<?php } ?>
 					<li class="header">সার্ভে ট্রাইব্যুনাল মামলার</li>
 					<li class="treeview">
-					  <a href="http://adcrevenue.com/web/monitoringchok/index">
+					  <a href="http://www.adcrevenue.com/web/monitoringchok/index">
 						<i class="fa fa-pie-chart"></i> <span>মনিটরিং ছক</span>
 					  </a>			 
 					</li>							
@@ -143,7 +143,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>				
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot1">
+						  <a href="http://www.adcrevenue.com/web/adalot1">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ জেলা জজ আদালত</span> 
 						  </a>			 
 						</li>	
@@ -152,7 +152,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>				
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot2">
+						  <a href="http://www.adcrevenue.com/web/adalot2">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ জেলা জজ নিরাপত্তা আদালত</span> 
 						  </a>			 
 						</li>	
@@ -161,7 +161,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot3">
+						  <a href="http://www.adcrevenue.com/web/adalot3">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ স্প্রেসিয়াল জেলা জজ বিশেষ আদালত</span> 
 						  </a>			 
 						</li>
@@ -170,7 +170,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot4">
+						  <a href="http://www.adcrevenue.com/web/adalot4">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ১ম আদালত</span> 
 						  </a>			 
 						</li>
@@ -179,7 +179,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot5">
+						  <a href="http://www.adcrevenue.com/web/adalot5">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ২য় আদালত</span> 
 						  </a>			 
 						</li>
@@ -188,7 +188,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot6">
+						  <a href="http://www.adcrevenue.com/web/adalot6">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ৩য় আদালত</span> 
 						  </a>			 
 						</li>
@@ -197,7 +197,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot7">
+						  <a href="http://www.adcrevenue.com/web/adalot7">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ৪র্থ আদালত</span> 
 						  </a>			 
 						</li>
@@ -206,7 +206,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot8">
+						  <a href="http://www.adcrevenue.com/web/adalot8">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ১ম আদালত</span> 
 						  </a>			 
 						</li>
@@ -215,7 +215,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot9">
+						  <a href="http://www.adcrevenue.com/web/adalot9">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ২য় আদালত</span> 
 						  </a>			 
 						</li>
@@ -224,7 +224,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot10">
+						  <a href="http://www.adcrevenue.com/web/adalot10">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ৩য় আদালত</span> 
 						  </a>			 
 						</li>
@@ -233,7 +233,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot11">
+						  <a href="http://www.adcrevenue.com/web/adalot11">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ৪র্থ আদালত</span> 
 						  </a>			 
 						</li>
@@ -242,7 +242,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot12">
+						  <a href="http://www.adcrevenue.com/web/adalot12">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ল্যান্ড সার্ভে ট্রাইব্যুনাল</span> 
 						  </a>			 
 						</li>
@@ -251,7 +251,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot13">
+						  <a href="http://www.adcrevenue.com/web/adalot13">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সিনিওর সহকারী জজ , সদর আদালত</span> 
 						  </a>			 
 						</li>
@@ -260,7 +260,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot14">
+						  <a href="http://www.adcrevenue.com/web/adalot14">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , লাকসাম আদালত</span> 
 						  </a>			 
 						</li>
@@ -269,7 +269,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot15">
+						  <a href="http://www.adcrevenue.com/web/adalot15">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , বগুড়া আদালত</span> 
 						  </a>			 
 						</li>
@@ -278,7 +278,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot16">
+						  <a href="http://www.adcrevenue.com/web/adalot16">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , নাঙ্গলকোট আদালত</span> 
 						  </a>			 
 						</li>
@@ -287,7 +287,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot17">
+						  <a href="http://www.adcrevenue.com/web/adalot17">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , চৌদ্দগ্রাম আদালত</span> 
 						  </a>			 
 						</li>
@@ -296,7 +296,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot18">
+						  <a href="http://www.adcrevenue.com/web/adalot18">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ ,চান্দিনা আদালত</span> 
 						  </a>			 
 						</li>
@@ -305,7 +305,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot19">
+						  <a href="http://www.adcrevenue.com/web/adalot19">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , বুড়িচং আদালত</span> 
 						  </a>			 
 						</li>
@@ -314,7 +314,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot20">
+						  <a href="http://www.adcrevenue.com/web/adalot20">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ, ব্রাহ্মণপাড়া আদালত</span> 
 						  </a>			 
 						</li>
@@ -323,7 +323,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot21">
+						  <a href="http://www.adcrevenue.com/web/adalot21">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , দেবীদ্বার আদালত</span> 
 						  </a>			 
 						</li>
@@ -332,7 +332,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot22">
+						  <a href="http://www.adcrevenue.com/web/adalot22">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , মুরাদনগর আদালত</span> 
 						  </a>			 
 						</li>
@@ -341,7 +341,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot23">
+						  <a href="http://www.adcrevenue.com/web/adalot23">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , দাউদকান্দি আদালত</span> 
 						  </a>			 
 						</li>
@@ -350,7 +350,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adalot24">
+						  <a href="http://www.adcrevenue.com/web/adalot24">
 							<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ, হোমনা আদালত</span> 
 						  </a>			 
 						</li>
@@ -359,7 +359,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						   <a href="http://adcrevenue.com/web/barura">
+						   <a href="http://www.adcrevenue.com/web/barura">
 							<i class="fa fa-pie-chart"></i> <span>বরুরা</span> 
 						  </a>			 
 						</li>
@@ -368,7 +368,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/chandina">
+						  <a href="http://www.adcrevenue.com/web/chandina">
 							<i class="fa fa-pie-chart"></i> <span>চান্দিনা</span> 
 						  </a>			 
 						</li>
@@ -377,7 +377,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/daudkandi">
+						  <a href="http://www.adcrevenue.com/web/daudkandi">
 							<i class="fa fa-pie-chart"></i> <span>দাউদকান্দি</span> 
 						  </a>			 
 						</li>
@@ -386,7 +386,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/laksam">
+						  <a href="http://www.adcrevenue.com/web/laksam">
 							<i class="fa fa-pie-chart"></i> <span>লাকসাম</span> 
 						  </a>			 
 						</li>
@@ -395,7 +395,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/brahmanpara">
+						  <a href="http://www.adcrevenue.com/web/brahmanpara">
 							<i class="fa fa-pie-chart"></i> <span>ব্রাহ্মণপাড়া</span> 
 						  </a>			 
 						</li>
@@ -404,7 +404,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/burichong">
+						  <a href="http://www.adcrevenue.com/web/burichong">
 							<i class="fa fa-pie-chart"></i> <span>বুড়িচং</span> 
 						  </a>			 
 						</li>
@@ -413,7 +413,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/chauddagram">
+						  <a href="http://www.adcrevenue.com/web/chauddagram">
 							<i class="fa fa-pie-chart"></i> <span>চৌদ্দগ্রাম</span> 
 						  </a>			 
 						</li>
@@ -422,7 +422,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/debidwar">
+						  <a href="http://www.adcrevenue.com/web/debidwar">
 							<i class="fa fa-pie-chart"></i> <span>দেবীদ্বার</span> 
 						  </a>			 
 						</li>
@@ -431,7 +431,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/homna">
+						  <a href="http://www.adcrevenue.com/web/homna">
 							<i class="fa fa-pie-chart"></i> <span>হোমনা</span> 
 						  </a>			 
 						</li>
@@ -440,7 +440,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/muradnagar">
+						  <a href="http://www.adcrevenue.com/web/muradnagar">
 							<i class="fa fa-pie-chart"></i> <span> মুরাদনগর</span> 
 						  </a>			 
 						</li>
@@ -449,7 +449,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/nangalkot">
+						  <a href="http://www.adcrevenue.com/web/nangalkot">
 							<i class="fa fa-pie-chart"></i> <span>লাঙ্গলকোট</span> 
 						  </a>			 
 						</li>
@@ -458,7 +458,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/meghna">
+						  <a href="http://www.adcrevenue.com/web/meghna">
 							<i class="fa fa-pie-chart"></i> <span>মেঘনা</span> 
 						  </a>			 
 						</li>
@@ -467,7 +467,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/titas">
+						  <a href="http://www.adcrevenue.com/web/titas">
 							<i class="fa fa-pie-chart"></i> <span>তিতাস</span> 
 						  </a>			 
 						</li>
@@ -476,7 +476,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/monohorgonj">
+						  <a href="http://www.adcrevenue.com/web/monohorgonj">
 							<i class="fa fa-pie-chart"></i> <span>মনোহরগঞ্জ</span> 
 						  </a>			 
 						</li>
@@ -485,7 +485,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">				
-						  <a href="http://adcrevenue.com/web/sadar">
+						  <a href="http://www.adcrevenue.com/web/sadar">
 							<i class="fa fa-pie-chart"></i> <span>কুমিল্লা সদর দক্ষিণ উপজেলা</span> 
 						  </a>			 
 						</li>
@@ -494,7 +494,7 @@ DashboardAsset::register($this);
 					<ul class="sidebar-menu">
 						<li class="header">পেন্ডিং মোকাদ্দমা সমুহের তালিকা</li>	
 						<li class="treeview">
-						  <a href="http://adcrevenue.com/web/adarsa">
+						  <a href="http://www.adcrevenue.com/web/adarsa">
 							<i class="fa fa-pie-chart"></i> <span>কুমিল্লা আদর্শ সদর উপজেলা</span> 
 						  </a>			 
 						</li>
@@ -505,122 +505,122 @@ DashboardAsset::register($this);
 						<a href="#adalot" class="list-group-item list-group-item-primary"  data-toggle="collapse" data-parent="#TopMenu"><h6>বিজ্ঞ আদালত ভিত্তিক পেন্ডিং মোকাদ্দমা সমুহের তালিকা</h6></a>
 						<div class="collapse" id="adalot">								
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot1">
+							  <a href="http://www.adcrevenue.com/web/adalot1">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ জেলা জজ আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot2">
+							  <a href="http://www.adcrevenue.com/web/adalot2">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ জেলা জজ নিরাপত্তা আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							   <a href="http://adcrevenue.com/web/adalot3">
+							   <a href="http://www.adcrevenue.com/web/adalot3">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ স্প্রেসিয়াল জেলা জজ বিশেষ আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot4">
+							  <a href="http://www.adcrevenue.com/web/adalot4">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ১ম আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot5">
+							  <a href="http://www.adcrevenue.com/web/adalot5">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ২য় আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot6">
+							  <a href="http://www.adcrevenue.com/web/adalot6">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ৩য় আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot7">
+							  <a href="http://www.adcrevenue.com/web/adalot7">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ অতিরিক্ত জেলা জজ ৪র্থ আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot8">
+							  <a href="http://www.adcrevenue.com/web/adalot8">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ১ম আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot9">
+							  <a href="http://www.adcrevenue.com/web/adalot9">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ২য় আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot10">
+							  <a href="http://www.adcrevenue.com/web/adalot10">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ৩য় আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot11">
+							  <a href="http://www.adcrevenue.com/web/adalot11">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ৪র্থ আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot12">
+							  <a href="http://www.adcrevenue.com/web/adalot12">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ যুগ্ম জেলা জজ ল্যান্ড সার্ভে ট্রাইব্যুনাল</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot13">
+							  <a href="http://www.adcrevenue.com/web/adalot13">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সিনিওর সহকারী জজ , সদর আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot14">
+							  <a href="http://www.adcrevenue.com/web/adalot14">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , লাকসাম আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot15">
+							  <a href="http://www.adcrevenue.com/web/adalot15">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , বগুড়া আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot16">
+							  <a href="http://www.adcrevenue.com/web/adalot16">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , নাঙ্গলকোট আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot17">
+							  <a href="http://www.adcrevenue.com/web/adalot17">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , চৌদ্দগ্রাম আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot18">
+							  <a href="http://www.adcrevenue.com/web/adalot18">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , চান্দিনা আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot19">
+							  <a href="http://www.adcrevenue.com/web/adalot19">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , বুড়িচং আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot20">
+							  <a href="http://www.adcrevenue.com/web/adalot20">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ, ব্রাহ্মণপাড়া আদালত </span> 
 							  </a>			 
 							</li>	
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot21">
+							  <a href="http://www.adcrevenue.com/web/adalot21">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ , দেবীদ্বার আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot22">
+							  <a href="http://www.adcrevenue.com/web/adalot22">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ ,মুরাদনগর আদালত</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot23">
+							  <a href="http://www.adcrevenue.com/web/adalot23">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ দাউদকান্দি আদালত </span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adalot24">
+							  <a href="http://www.adcrevenue.com/web/adalot24">
 								<i class="fa fa-pie-chart"></i> <span>বিজ্ঞ সহকারী জজ, হোমনা আদালত</span> 
 							  </a>			 
 							</li>	
@@ -628,82 +628,82 @@ DashboardAsset::register($this);
 						<a href="#upazila" class="list-group-item list-group-item-primary" data-toggle="collapse" data-parent="#TopMenu"><h6>উপজেলাভিত্তিক পেন্ডিং মোকাদ্দমা সমুহের তালিকা</h6></a>
 						<div class="collapse" id="upazila">			  				
 							<li class="treeview">				
-							  <a href="http://adcrevenue.com/web/sadar">
+							  <a href="http://www.adcrevenue.com/web/sadar">
 								<i class="fa fa-pie-chart"></i> <span>কুমিল্লা সদর দক্ষিণ উপজেলা</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/adarsa">
+							  <a href="http://www.adcrevenue.com/web/adarsa">
 								<i class="fa fa-pie-chart"></i> <span>কুমিল্লা আদর্শ সদর উপজেলা</span> 
 							  </a>			 
 							</li>				
 							<li class="treeview">
-							   <a href="http://adcrevenue.com/web/barura">
+							   <a href="http://www.adcrevenue.com/web/barura">
 								<i class="fa fa-pie-chart"></i> <span>বরুরা</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/chandina">
+							  <a href="http://www.adcrevenue.com/web/chandina">
 								<i class="fa fa-pie-chart"></i> <span>চান্দিনা</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/daudkandi">
+							  <a href="http://www.adcrevenue.com/web/daudkandi">
 								<i class="fa fa-pie-chart"></i> <span>দাউদকান্দি</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/laksam">
+							  <a href="http://www.adcrevenue.com/web/laksam">
 								<i class="fa fa-pie-chart"></i> <span>লাকসাম</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/brahmanpara">
+							  <a href="http://www.adcrevenue.com/web/brahmanpara">
 								<i class="fa fa-pie-chart"></i> <span>ব্রাহ্মণপাড়া</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/burichong">
+							  <a href="http://www.adcrevenue.com/web/burichong">
 								<i class="fa fa-pie-chart"></i> <span>বুড়িচং</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/chauddagram">
+							  <a href="http://www.adcrevenue.com/web/chauddagram">
 								<i class="fa fa-pie-chart"></i> <span>চৌদ্দগ্রাম</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/debidwar">
+							  <a href="http://www.adcrevenue.com/web/debidwar">
 								<i class="fa fa-pie-chart"></i> <span>দেবীদ্বার</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/homna">
+							  <a href="http://www.adcrevenue.com/web/homna">
 								<i class="fa fa-pie-chart"></i> <span>হোমনা</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/muradnagar">
+							  <a href="http://www.adcrevenue.com/web/muradnagar">
 								<i class="fa fa-pie-chart"></i> <span> মুরাদনগর</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/nangalkot">
+							  <a href="http://www.adcrevenue.com/web/nangalkot">
 								<i class="fa fa-pie-chart"></i> <span>লাঙ্গলকোট</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/meghna">
+							  <a href="http://www.adcrevenue.com/web/meghna">
 								<i class="fa fa-pie-chart"></i> <span>মেঘনা</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/titas">
+							  <a href="http://www.adcrevenue.com/web/titas">
 								<i class="fa fa-pie-chart"></i> <span>তিতাস</span> 
 							  </a>			 
 							</li>
 							<li class="treeview">
-							  <a href="http://adcrevenue.com/web/monohorgonj">
+							  <a href="http://www.adcrevenue.com/web/monohorgonj">
 								<i class="fa fa-pie-chart"></i> <span>মনোহরগঞ্জ</span> 
 							  </a>			 
 							</li>				

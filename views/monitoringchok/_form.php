@@ -371,7 +371,7 @@ $userOf = \Yii::$app->user->identity->userof;
 			   'inputOptions' => ['autofocus' => false, 'class' => 'form-control transparent']
 		 ])->textInput()->input('montobo', ['placeholder' => 'কথা']); ?>    	
 	
-	<?php /*= $form->field($model, 'scanfile')->fileInput(); */ ?>
+	<?= $form->field($model, 'scanfile')->fileInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

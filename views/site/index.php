@@ -17,10 +17,10 @@ use yii\helpers\Html;
 						</div> 						
 					</div>
 					<div class="form-bottom hidden-xs">
-						<h5 class="text-center" style="color:navy">দেওয়ানী ও সার্ভে ট্রাইব্যুনাল মামলার মনিটরিং সিষ্টেম ©</h5><br><h5 class="text-center">কারিগরি সহায়তায়:&nbsp;<a href="http://schooloffreelancing.com/" target="_blank" style="color:#;">স্কুল অফ ফ্রীল্যানসিং&nbsp;</a>এবং&nbsp;<a href="http://www.ltb.com.bd" target="_blank" style="color:#;">এলটিবি</a></h5>																										                        		                        								  														   							                    
+						<h5 class="text-center" style="color:navy">দেওয়ানী ও সার্ভে ট্রাইব্যুনাল মামলার মনিটরিং সিষ্টেম ©</h5><br><h5 class="text-center">কারিগরি সহায়তায়:&nbsp;স্কুল অফ ফ্রীল্যানসিং&nbsp;এবং&nbsp;এলটিবি</h5>																										                        		                        								  														   							                    
 					</div>
 					<div class="form-bottom visible-xs">
-						<h6 class="text-center" style="font-size:10px; color:navy">দেওয়ানী ও সার্ভে ট্রাইব্যুনাল মামলার মনিটরিং সিষ্টেম ©</h6><br><h6 class="text-center" style="font-size:10px;">কারিগরি সহায়তায়:&nbsp;<a href="http://schooloffreelancing.com/" target="_blank" style="color:#;">স্কুল অফ ফ্রীল্যানসিং&nbsp;</a>এবং&nbsp;<a href="http://www.ltb.com.bd" target="_blank" style="color:#;">এলটিবি</a></h6>																										                        		                        								  														   							                    
+						<h6 class="text-center" style="font-size:10px; color:navy">দেওয়ানী ও সার্ভে ট্রাইব্যুনাল মামলার মনিটরিং সিষ্টেম ©</h6><br><h6 class="text-center" style="font-size:10px;">কারিগরি সহায়তায়:&nbsp;স্কুল অফ ফ্রীল্যানসিং&nbsp;এবং&nbsp;এলটিবি</h6>																										                        		                        								  														   							                    
 					</div>		
 				</div>
 			</div>                   
